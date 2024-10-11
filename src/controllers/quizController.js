@@ -13,3 +13,13 @@ exports.addQuiz = async (req,res) => {
         }
 
 }
+
+exports.getAllQuiz = async (req, res) => {
+    try {
+        const quizzes = await Quiz.find();
+        res.json(quizzes);
+
+    } catch (error) {
+        res.status(400).json({ message: error.message });
+    }
+}
