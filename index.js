@@ -1,6 +1,7 @@
 const express = require("express");
 const mongoose = require("mongoose")
 const userRouter = require("./src/routes/userRouter")
+const quizRouter = require("./src/routes/quizRouter")
 
 require('dotenv').config();
 const port = process.env.PORT || 5000;
@@ -13,7 +14,9 @@ mongoose.connect(process.env.MONGODB_URI,{ useNewUrlParser:true, useUnifiedTopol
 .then(()=> console.log("MongoDB connected"))
 .catch((error) => console.log("MongoDB connection error :", error));
 
-app.use("/api" , userRouter);
+app.use("/api/user" , userRouter);
+app.use("/api/mcq" , quizRouter);
+
 
 app.use("/",(req,res) => {
     res.send("server is running successfull!!..")
