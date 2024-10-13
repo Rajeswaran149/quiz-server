@@ -12,24 +12,29 @@ This is a RESTful API for a basic online quiz application built with Node.js and
   ![login](https://github.com/user-attachments/assets/57bd9d35-9341-424a-b120-49b01f1c11c3)
 
 
+
+
+
 ## MCQ Quiz Management:
   ## Create and manage quizzes.
-    ![add quezz](https://github.com/user-attachments/assets/08d0e1df-5b7a-43cd-a7eb-e986b744a28c)
+![add quezz](https://github.com/user-attachments/assets/ca0ff608-d4d7-4df8-ab16-219cca4ff891)
+
 
 
   ## Retrieve a list of quizzes.
-    ![get all quiz](https://github.com/user-attachments/assets/b86ee69a-32be-458f-b8a7-f21021d1cd25)
+   ![get all quiz](https://github.com/user-attachments/assets/19dfa5d3-136f-4d5f-81a3-71a25f004f09)
 
 
   ## Get details of a specific quiz.
    ![get quiz details](https://github.com/user-attachments/assets/97304aad-407f-4ceb-88b2-43633e00ede8)
 
-  ##  Take a quiz and submit answers.
-    ![taking quiz](https://github.com/user-attachments/assets/a41fcfc6-a618-423f-a8c7-b713575b48e7)
 
+
+  ##  Take a quiz and submit answers.
+  ![taking quiz](https://github.com/user-attachments/assets/b061cf2c-d36a-48b3-b76a-c1cf2d61ede8)
 
   ## View quiz results.
-    ![check result](https://github.com/user-attachments/assets/690a9103-19a5-4c20-9dcf-638a9ec07c3a)
+  ![check result](https://github.com/user-attachments/assets/8c06b244-2a72-4b7d-b9cc-796b4984b6f1)
 
 
 
