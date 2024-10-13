@@ -41,13 +41,13 @@ This is a RESTful API for a basic online quiz application built with Node.js and
 ## Technologies Used
 - Node.js
 - Express.js
-- MongoDB (or any other database you choose)
-- Mongoose (if using MongoDB)
+- MongoDB 
+- Mongoose 
 - JWT for authentication
 
 ## Prerequisites
 - Node.js installed on your machine.
-- MongoDB (or the database of your choice) running.
+- MongoDB  running.
 
 ## Installation
 
